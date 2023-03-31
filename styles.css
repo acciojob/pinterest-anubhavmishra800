@@ -1,48 +1,23 @@
 /*  your css code here. If applicable */
-/* .parent_container{
+.container{
 	display:flex;
-	gap:30px;
 }
-.child{
-	align-self:center;
+.container img{
+	
+	width:50%;
 }
-img{
-	height:200px;
-	width:400px;
-	object-fit:cover;
+
+.text-container{
+  text-align:center;
+	position: relative;
+	right:30px;
+	padding:5%;
+
 }
-button{
-	background-color:red;
+.btn{
+	background:red;
 	color:white;
 	border:none;
-	padding:10px;
-	width:150px;;
-	border-radius:5px;
-} */
-.parent_container{
-	display:grid;
-	grid-template-rows: 400px;
-	grid-template-columns: 400px 400px;
+	border-radius:3px;
 	
-}
-
-.child{
-	text-align:center;
-	font-size:9px;
-	margin-top:15%;
-	margin-left:-25%;
-}
-
-img{
-	width: 400px;
-	height: 200px; 
-	object-fit: cover;
-}
-
-button{
-	height:30px;
-	width:100px;
-	background: red;
-	color: white;
-	border: none;
 }
